@@ -1,0 +1,3392 @@
+{
+    "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+    "name": "Fer-de-Lance",
+    "ship": "Fer-de-Lance",
+    "references": [
+      {
+        "name": "Coriolis.io",
+        "url": "https://coriolis.io/outfit/fer_de_lance?code=A4pktfFalhdpsff37o272727270200040404045ip35d272525.AwRj4ytEg%3D%3D%3D.Aw18WQ%3D%3D.H4sIAAAAAAAAA42SMUvDYBCGL21a2yRNmrRpi1ZbbWpBEIpbF3ERRHDvj3AognRRqIs4dBApTg79AQ6ODh1dHQsOIo7ugojWO%2B8C%2FbBQMBleXvI%2BubvvywEuAMBPgmVyxWJeagCZngXgdtl59yZAMIoBkIbbQsaFPGVJvU6InJ0KQKHKL707naEYFlS5IxYn%2BCLKr3wT%2BUMHoCRQrVNkMo6LiuxOybBd%2FsRn8pkT0nFLIE1y%2BSrMKYEt9ekZS9pCImPgAqyKWxNXF7cujlLYVjifC3TplGgvASRvMzxO2CkdBTKiQGYUyIoCZbA%2BPT1c5Pj02QZAWRzZaM2J3vg%2FkIO7qvSNXJzU8prHfKcPaYDKk81QNgrk4t4MZHb4Tl2RoG9w7v2T53Bfcl3ycxat984b0%2FwkCps0ZNza8IN4Q%2FBAVTpkiZV4t5KyLGaLIfeFxZeZghGvK%2FmRCxdwQxUeyIiPbO1qmWuK82QpA3FU%2FENeCzlW5FiR4qiEm7PkMg9rywW64oI%2Bk0Qw%2F%2FkFdOEcoXADAAA%3D&bn=Fer-de-Lance",
+        "code": "A4pktfFalhdpsff37o272727270200040404045ip35d272525.AwRj4ytEg===.Aw18WQ==.H4sIAAAAAAAAA42SMUvDYBCGL21a2yRNmrRpi1ZbbWpBEIpbF3ERRHDvj3AognRRqIs4dBApTg79AQ6ODh1dHQsOIo7ugojWO+8C/bBQMBleXvI+ubvvywEuAMBPgmVyxWJeagCZngXgdtl59yZAMIoBkIbbQsaFPGVJvU6InJ0KQKHKL707naEYFlS5IxYn+CLKr3wT+UMHoCRQrVNkMo6LiuxOybBd/sRn8pkT0nFLIE1y+SrMKYEt9ekZS9pCImPgAqyKWxNXF7cujlLYVjifC3TplGgvASRvMzxO2CkdBTKiQGYUyIoCZbA+PT1c5Pj02QZAWRzZaM2J3vg/kIO7qvSNXJzU8prHfKcPaYDKk81QNgrk4t4MZHb4Tl2RoG9w7v2T53Bfcl3ycxat984b0/wkCps0ZNza8IN4Q/BAVTpkiZV4t5KyLGaLIfeFxZeZghGvK/mRCxdwQxUeyIiPbO1qmWuK82QpA3FU/ENeCzlW5FiR4qiEm7PkMg9rywW64oI+k0Qw//kFdOEcoXADAAA=",
+        "shipId": "fer_de_lance"
+      }
+    ],
+    "components": {
+      "standard": {
+        "bulkheads": "Reactive Surface Composite",
+        "cargoHatch": {
+          "enabled": false,
+          "priority": 1
+        },
+        "powerPlant": {
+          "class": 6,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "eff": -800,
+            "integrity": 8000,
+            "pgen": 800,
+            "mass": 1200
+          },
+          "blueprint": {
+            "fdname": "PowerPlant_Armoured",
+            "grades": {
+              "1": {
+                "components": {
+                  "Worn Shield Emitters": 1
+                },
+                "features": {
+                  "eff": [
+                    0,
+                    -0.04
+                  ],
+                  "integrity": [
+                    0,
+                    0.4
+                  ],
+                  "pgen": [
+                    0,
+                    0.04
+                  ],
+                  "mass": [
+                    0.04,
+                    0.04
+                  ]
+                },
+                "uuid": "14be2e0d-417b-4cde-834f-b7e8ca14bb85"
+              },
+              "2": {
+                "components": {
+                  "Carbon": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "eff": [
+                    -0.04,
+                    -0.06
+                  ],
+                  "integrity": [
+                    0.3,
+                    0.6
+                  ],
+                  "pgen": [
+                    0,
+                    0.06
+                  ],
+                  "mass": [
+                    0.08,
+                    0.08
+                  ]
+                },
+                "uuid": "14ade730-2a1d-4f48-a619-46be865819ec"
+              },
+              "3": {
+                "components": {
+                  "Carbon": 1,
+                  "High Density Composites": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "eff": [
+                    -0.06,
+                    -0.08
+                  ],
+                  "integrity": [
+                    0.6,
+                    0.8
+                  ],
+                  "pgen": [
+                    0.06,
+                    0.08
+                  ],
+                  "mass": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "aa9a05c9-f142-40db-b0bf-8f6ca29efba8"
+              },
+              "4": {
+                "components": {
+                  "Proprietary Composites": 1,
+                  "Shielding Sensors": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "eff": [
+                    -0.08,
+                    -0.1
+                  ],
+                  "integrity": [
+                    0.5,
+                    1
+                  ],
+                  "pgen": [
+                    0.08,
+                    0.1
+                  ],
+                  "mass": [
+                    0.16,
+                    0.16
+                  ]
+                },
+                "uuid": "bfb0ccc8-389e-4df0-9acd-4df91680c5a3"
+              },
+              "5": {
+                "components": {
+                  "Compound Shielding": 1,
+                  "Core Dynamics Composites": 1,
+                  "Tungsten": 1
+                },
+                "features": {
+                  "eff": [
+                    -0.1,
+                    -0.12
+                  ],
+                  "integrity": [
+                    1,
+                    1.2
+                  ],
+                  "pgen": [
+                    0.1,
+                    0.12
+                  ],
+                  "mass": [
+                    0.2,
+                    0.2
+                  ]
+                },
+                "uuid": "5156badb-c1eb-49f4-923d-b9e6f862799f"
+              }
+            },
+            "id": 62,
+            "modulename": [
+              "Power plant"
+            ],
+            "name": "Armoured",
+            "grade": 3,
+            "special": {
+              "name": "Thermal Spread",
+              "id": 125,
+              "edname": "special_powerplant_cooled",
+              "uuid": "6cda2960-a05b-4dd1-978c-202d746e47bc"
+            }
+          }
+        },
+        "thrusters": {
+          "class": 5,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "integrity": -1500,
+            "optmass": -1250,
+            "optmul": 4000,
+            "power": 1200,
+            "thermload": 6000
+          },
+          "blueprint": {
+            "fdname": "Engine_Dirty",
+            "grades": {
+              "1": {
+                "components": {
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "optmass": [
+                    -0.025,
+                    -0.025
+                  ],
+                  "optmul": [
+                    0,
+                    0.12
+                  ],
+                  "power": [
+                    0.04,
+                    0.04
+                  ],
+                  "thermload": [
+                    0.2,
+                    0.2
+                  ]
+                },
+                "uuid": "bbdea125-dd2b-4031-8698-56c922df3b76"
+              },
+              "2": {
+                "components": {
+                  "Mechanical Equipment": 1,
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "optmass": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "optmul": [
+                    0.12,
+                    0.19
+                  ],
+                  "power": [
+                    0.06,
+                    0.06
+                  ],
+                  "thermload": [
+                    0.3,
+                    0.3
+                  ]
+                },
+                "uuid": "d3ccba04-e0f5-40c3-a6f8-a038d5e5b4bf"
+              },
+              "3": {
+                "components": {
+                  "Chromium": 1,
+                  "Mechanical Components": 1,
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "optmass": [
+                    -0.075,
+                    -0.075
+                  ],
+                  "optmul": [
+                    0.19,
+                    0.26
+                  ],
+                  "power": [
+                    0.08,
+                    0.08
+                  ],
+                  "thermload": [
+                    0.4,
+                    0.4
+                  ]
+                },
+                "uuid": "60091d1f-38a9-4d62-bbc0-6332e03c7f3d"
+              },
+              "4": {
+                "components": {
+                  "Configurable Components": 1,
+                  "Modified Consumer Firmware": 1,
+                  "Selenium": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "optmass": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "optmul": [
+                    0.26,
+                    0.33
+                  ],
+                  "power": [
+                    0.1,
+                    0.1
+                  ],
+                  "thermload": [
+                    0.5,
+                    0.5
+                  ]
+                },
+                "uuid": "7355e32e-b850-4428-8279-66f234f59c6a"
+              },
+              "5": {
+                "components": {
+                  "Cadmium": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Pharmaceutical Isolators": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "optmass": [
+                    -0.125,
+                    -0.125
+                  ],
+                  "optmul": [
+                    0.33,
+                    0.4
+                  ],
+                  "power": [
+                    0.12,
+                    0.12
+                  ],
+                  "thermload": [
+                    0.6,
+                    0.6
+                  ]
+                },
+                "uuid": "92514d80-4513-489e-b85f-1b7010b3ae0f"
+              }
+            },
+            "id": 22,
+            "modulename": [
+              "Thrusters",
+              "Engines"
+            ],
+            "name": "Dirty",
+            "grade": 5,
+            "special": {
+              "name": "Thermal Spread",
+              "id": 114,
+              "edname": "special_engine_cooled",
+              "uuid": "42ff1374-3ecb-4872-abfa-b39b495fb203"
+            }
+          }
+        },
+        "frameShiftDrive": {
+          "class": 4,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "integrity": -1500,
+            "mass": 3000,
+            "optmass": 5500,
+            "power": 1500
+          },
+          "blueprint": {
+            "fdname": "FSD_LongRange",
+            "grades": {
+              "1": {
+                "components": {
+                  "Atypical Disrupted Wake Echoes": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "mass": [
+                    0.1,
+                    0.1
+                  ],
+                  "optmass": [
+                    0,
+                    0.15
+                  ],
+                  "power": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
+              },
+              "2": {
+                "components": {
+                  "Atypical Disrupted Wake Echoes": 1,
+                  "Chemical Processors": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "mass": [
+                    0.15,
+                    0.15
+                  ],
+                  "optmass": [
+                    0.15,
+                    0.25
+                  ],
+                  "power": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "74045351-f348-45f5-8798-487211f19520"
+              },
+              "3": {
+                "components": {
+                  "Chemical Processors": 1,
+                  "Phosphorus": 1,
+                  "Strange Wake Solutions": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "mass": [
+                    0.2,
+                    0.2
+                  ],
+                  "optmass": [
+                    0.25,
+                    0.35
+                  ],
+                  "power": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "cf196bb9-55a1-457f-893b-84ff2afd4db9"
+              },
+              "4": {
+                "components": {
+                  "Chemical Distillery": 1,
+                  "Eccentric Hyperspace Trajectories": 1,
+                  "Manganese": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "mass": [
+                    0.25,
+                    0.25
+                  ],
+                  "optmass": [
+                    0.35,
+                    0.45
+                  ],
+                  "power": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "ecf49fec-32fd-4930-949d-a341bf0fd00c"
+              },
+              "5": {
+                "components": {
+                  "Arsenic": 1,
+                  "Chemical Manipulators": 1,
+                  "Datamined Wake Exceptions": 1
+                },
+                "features": {
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "mass": [
+                    0.3,
+                    0.3
+                  ],
+                  "optmass": [
+                    0.45,
+                    0.55
+                  ],
+                  "power": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "dddd4fd3-bc9a-4c5b-8606-853c63d0f554"
+              }
+            },
+            "id": 26,
+            "modulename": [
+              "Frame shift drive",
+              "FSD"
+            ],
+            "name": "Increased range",
+            "grade": 5,
+            "special": {
+              "name": "Deep Charge",
+              "id": 119,
+              "edname": "special_fsd_fuelcapacity",
+              "uuid": "56f1e58d-2044-4a31-8b54-ad0f99dfd64e"
+            }
+          }
+        },
+        "lifeSupport": {
+          "class": 4,
+          "rating": "C",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "integrity": 6000,
+            "mass": 3000
+          },
+          "blueprint": {
+            "fdname": "LifeSupport_Reinforced",
+            "grades": {
+              "1": {
+                "components": {
+                  "Nickel": 1
+                },
+                "features": {
+                  "integrity": [
+                    0,
+                    0.6
+                  ],
+                  "mass": [
+                    0.3,
+                    0.3
+                  ]
+                },
+                "uuid": "b40b11a1-5f0f-440f-b77d-9abf9833d546"
+              },
+              "2": {
+                "components": {
+                  "Nickel": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.6,
+                    1.2
+                  ],
+                  "mass": [
+                    0.6,
+                    0.6
+                  ]
+                },
+                "uuid": "847b937b-ffa2-4418-9a48-0993a675d43f"
+              },
+              "3": {
+                "components": {
+                  "Nickel": 1,
+                  "Shield Emitters": 1,
+                  "Tungsten": 1
+                },
+                "features": {
+                  "integrity": [
+                    1.2,
+                    1.8
+                  ],
+                  "mass": [
+                    0.9,
+                    0.9
+                  ]
+                },
+                "uuid": "8303d5f6-da56-41d0-8af3-4620efcc561e"
+              },
+              "4": {
+                "components": {
+                  "Molybdenum": 1,
+                  "Tungsten": 1,
+                  "Zinc": 1
+                },
+                "features": {
+                  "integrity": [
+                    1.8,
+                    2.4
+                  ],
+                  "mass": [
+                    1.2,
+                    1.2
+                  ]
+                },
+                "uuid": "6c37ca40-0ae6-48e0-a145-c3eea2bf7cce"
+              },
+              "5": {
+                "components": {
+                  "High Density Composites": 1,
+                  "Molybdenum": 1,
+                  "Technetium": 1
+                },
+                "features": {
+                  "integrity": [
+                    2.4,
+                    3
+                  ],
+                  "mass": [
+                    1.5,
+                    1.5
+                  ]
+                },
+                "uuid": "d0ff95ad-123a-4fd0-ae88-c46209068e3a"
+              }
+            },
+            "id": 50,
+            "modulename": [
+              "Life support"
+            ],
+            "name": "Reinforced",
+            "grade": 1
+          }
+        },
+        "powerDistributor": {
+          "class": 6,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "modifications": {
+            "engcap": -500,
+            "engrate": 4500,
+            "syscap": -500,
+            "sysrate": 4500,
+            "wepcap": -500,
+            "weprate": 4500
+          },
+          "blueprint": {
+            "fdname": "PowerDistributor_HighFrequency",
+            "grades": {
+              "1": {
+                "components": {
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "engrate": [
+                    0,
+                    0.09
+                  ],
+                  "syscap": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "sysrate": [
+                    0,
+                    0.09
+                  ],
+                  "wepcap": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "weprate": [
+                    0,
+                    0.09
+                  ]
+                },
+                "uuid": "e8ce47e1-c5d7-46bf-b31e-48dcfe9ab1a5"
+              },
+              "2": {
+                "components": {
+                  "Chemical Processors": 1,
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "engrate": [
+                    0.09,
+                    0.18
+                  ],
+                  "syscap": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "sysrate": [
+                    0.09,
+                    0.18
+                  ],
+                  "wepcap": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "weprate": [
+                    0.09,
+                    0.18
+                  ]
+                },
+                "uuid": "528b87b2-157d-471e-9958-831a9962c595"
+              },
+              "3": {
+                "components": {
+                  "Chemical Distillery": 1,
+                  "Grid Resistors": 1,
+                  "Modified Consumer Firmware": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "engrate": [
+                    0.18,
+                    0.27
+                  ],
+                  "syscap": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "sysrate": [
+                    0.18,
+                    0.27
+                  ],
+                  "wepcap": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "weprate": [
+                    0.18,
+                    0.27
+                  ]
+                },
+                "uuid": "713b5e19-b7a5-447f-b450-248e771dcd72"
+              },
+              "4": {
+                "components": {
+                  "Chemical Manipulators": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Hybrid Capacitors": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "engrate": [
+                    0.27,
+                    0.36
+                  ],
+                  "syscap": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "sysrate": [
+                    0.27,
+                    0.36
+                  ],
+                  "wepcap": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "weprate": [
+                    0.27,
+                    0.36
+                  ]
+                },
+                "uuid": "1bfd4836-c69d-4adf-94dd-e7c41da96416"
+              },
+              "5": {
+                "components": {
+                  "Chemical Manipulators": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Exquisite Focus Crystals": 1
+                },
+                "features": {
+                  "engcap": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "engrate": [
+                    0.36,
+                    0.45
+                  ],
+                  "syscap": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "sysrate": [
+                    0.36,
+                    0.45
+                  ],
+                  "wepcap": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "weprate": [
+                    0.36,
+                    0.45
+                  ]
+                },
+                "uuid": "5adf6ae2-0e1b-4b3e-9513-9b981213cdfd"
+              }
+            },
+            "id": 57,
+            "modulename": [
+              "Power distributor",
+              "Distributor"
+            ],
+            "name": "Charge enhanced",
+            "grade": 5,
+            "special": {
+              "name": "Super Conduits",
+              "id": 129,
+              "edname": "special_powerdistributor_fast",
+              "uuid": "b5bb35a1-e851-4d37-8f26-8fe828f84c95"
+            }
+          }
+        },
+        "sensors": {
+          "class": 4,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1
+        },
+        "fuelTank": {
+          "class": 3,
+          "rating": "C",
+          "enabled": true,
+          "priority": 1
+        }
+      },
+      "hardpoints": [
+        {
+          "class": 4,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Multi-cannon",
+          "mount": "Gimballed",
+          "modifications": {
+            "clip": -1500,
+            "damage": 7000,
+            "distdraw": 3500,
+            "thermload": 1500
+          },
+          "blueprint": {
+            "fdname": "MC_Overcharged",
+            "grades": {
+              "1": {
+                "components": {
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "damage": [
+                    0,
+                    0.3
+                  ],
+                  "distdraw": [
+                    0.15,
+                    0.15
+                  ],
+                  "thermload": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "damage": [
+                    0.3,
+                    0.4
+                  ],
+                  "distdraw": [
+                    0.2,
+                    0.2
+                  ],
+                  "thermload": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Electrochemical Arrays": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "damage": [
+                    0.4,
+                    0.5
+                  ],
+                  "distdraw": [
+                    0.25,
+                    0.25
+                  ],
+                  "thermload": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "4389883f-c2b3-4487-9b1a-b668a761057a"
+              },
+              "4": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Polymer Capacitors": 1,
+                  "Zinc": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "damage": [
+                    0.5,
+                    0.6
+                  ],
+                  "distdraw": [
+                    0.3,
+                    0.3
+                  ],
+                  "thermload": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
+              },
+              "5": {
+                "components": {
+                  "Conductive Polymers": 1,
+                  "Modified Embedded Firmware": 1,
+                  "Zirconium": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "damage": [
+                    0.6,
+                    0.7
+                  ],
+                  "distdraw": [
+                    0.35,
+                    0.35
+                  ],
+                  "thermload": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "4dcf6bdc-bcff-448a-92a0-7612de548db7"
+              }
+            },
+            "id": 88,
+            "modulename": [
+              "Weapon"
+            ],
+            "name": "Overcharged",
+            "grade": 5,
+            "special": {
+              "id": 12,
+              "edname": "special_incendiary_rounds",
+              "name": "Incendiary rounds",
+              "uuid": "3526773e-a814-4bec-afbf-30db79a3e239"
+            }
+          }
+        },
+        {
+          "class": 2,
+          "rating": "F",
+          "enabled": true,
+          "priority": 1,
+          "group": "Multi-cannon",
+          "mount": "Gimballed",
+          "modifications": {
+            "clip": -1500,
+            "damage": 7000,
+            "distdraw": 3500,
+            "thermload": 1500
+          },
+          "blueprint": {
+            "fdname": "MC_Overcharged",
+            "grades": {
+              "1": {
+                "components": {
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "damage": [
+                    0,
+                    0.3
+                  ],
+                  "distdraw": [
+                    0.15,
+                    0.15
+                  ],
+                  "thermload": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "damage": [
+                    0.3,
+                    0.4
+                  ],
+                  "distdraw": [
+                    0.2,
+                    0.2
+                  ],
+                  "thermload": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Electrochemical Arrays": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "damage": [
+                    0.4,
+                    0.5
+                  ],
+                  "distdraw": [
+                    0.25,
+                    0.25
+                  ],
+                  "thermload": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "4389883f-c2b3-4487-9b1a-b668a761057a"
+              },
+              "4": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Polymer Capacitors": 1,
+                  "Zinc": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "damage": [
+                    0.5,
+                    0.6
+                  ],
+                  "distdraw": [
+                    0.3,
+                    0.3
+                  ],
+                  "thermload": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
+              },
+              "5": {
+                "components": {
+                  "Conductive Polymers": 1,
+                  "Modified Embedded Firmware": 1,
+                  "Zirconium": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "damage": [
+                    0.6,
+                    0.7
+                  ],
+                  "distdraw": [
+                    0.35,
+                    0.35
+                  ],
+                  "thermload": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "4dcf6bdc-bcff-448a-92a0-7612de548db7"
+              }
+            },
+            "id": 88,
+            "modulename": [
+              "Weapon"
+            ],
+            "name": "Overcharged",
+            "grade": 5,
+            "special": {
+              "id": 12,
+              "edname": "special_incendiary_rounds",
+              "name": "Incendiary rounds",
+              "uuid": "3526773e-a814-4bec-afbf-30db79a3e239"
+            }
+          }
+        },
+        {
+          "class": 2,
+          "rating": "F",
+          "enabled": true,
+          "priority": 1,
+          "group": "Multi-cannon",
+          "mount": "Gimballed",
+          "modifications": {
+            "clip": -1500,
+            "damage": 7000,
+            "distdraw": 3500,
+            "thermload": 1500
+          },
+          "blueprint": {
+            "fdname": "MC_Overcharged",
+            "grades": {
+              "1": {
+                "components": {
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "damage": [
+                    0,
+                    0.3
+                  ],
+                  "distdraw": [
+                    0.15,
+                    0.15
+                  ],
+                  "thermload": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "damage": [
+                    0.3,
+                    0.4
+                  ],
+                  "distdraw": [
+                    0.2,
+                    0.2
+                  ],
+                  "thermload": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Electrochemical Arrays": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "damage": [
+                    0.4,
+                    0.5
+                  ],
+                  "distdraw": [
+                    0.25,
+                    0.25
+                  ],
+                  "thermload": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "4389883f-c2b3-4487-9b1a-b668a761057a"
+              },
+              "4": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Polymer Capacitors": 1,
+                  "Zinc": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "damage": [
+                    0.5,
+                    0.6
+                  ],
+                  "distdraw": [
+                    0.3,
+                    0.3
+                  ],
+                  "thermload": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
+              },
+              "5": {
+                "components": {
+                  "Conductive Polymers": 1,
+                  "Modified Embedded Firmware": 1,
+                  "Zirconium": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "damage": [
+                    0.6,
+                    0.7
+                  ],
+                  "distdraw": [
+                    0.35,
+                    0.35
+                  ],
+                  "thermload": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "4dcf6bdc-bcff-448a-92a0-7612de548db7"
+              }
+            },
+            "id": 88,
+            "modulename": [
+              "Weapon"
+            ],
+            "name": "Overcharged",
+            "grade": 5,
+            "special": {
+              "id": 12,
+              "edname": "special_incendiary_rounds",
+              "name": "Incendiary rounds",
+              "uuid": "3526773e-a814-4bec-afbf-30db79a3e239"
+            }
+          }
+        },
+        {
+          "class": 2,
+          "rating": "F",
+          "enabled": true,
+          "priority": 1,
+          "group": "Multi-cannon",
+          "mount": "Gimballed",
+          "modifications": {
+            "clip": -1500,
+            "damage": 7000,
+            "distdraw": 3500,
+            "thermload": 1500
+          },
+          "blueprint": {
+            "fdname": "MC_Overcharged",
+            "grades": {
+              "1": {
+                "components": {
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "damage": [
+                    0,
+                    0.3
+                  ],
+                  "distdraw": [
+                    0.15,
+                    0.15
+                  ],
+                  "thermload": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "damage": [
+                    0.3,
+                    0.4
+                  ],
+                  "distdraw": [
+                    0.2,
+                    0.2
+                  ],
+                  "thermload": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Electrochemical Arrays": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "damage": [
+                    0.4,
+                    0.5
+                  ],
+                  "distdraw": [
+                    0.25,
+                    0.25
+                  ],
+                  "thermload": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "4389883f-c2b3-4487-9b1a-b668a761057a"
+              },
+              "4": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Polymer Capacitors": 1,
+                  "Zinc": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "damage": [
+                    0.5,
+                    0.6
+                  ],
+                  "distdraw": [
+                    0.3,
+                    0.3
+                  ],
+                  "thermload": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
+              },
+              "5": {
+                "components": {
+                  "Conductive Polymers": 1,
+                  "Modified Embedded Firmware": 1,
+                  "Zirconium": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "damage": [
+                    0.6,
+                    0.7
+                  ],
+                  "distdraw": [
+                    0.35,
+                    0.35
+                  ],
+                  "thermload": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "4dcf6bdc-bcff-448a-92a0-7612de548db7"
+              }
+            },
+            "id": 88,
+            "modulename": [
+              "Weapon"
+            ],
+            "name": "Overcharged",
+            "grade": 5,
+            "special": {
+              "id": 12,
+              "edname": "special_incendiary_rounds",
+              "name": "Incendiary rounds",
+              "uuid": "3526773e-a814-4bec-afbf-30db79a3e239"
+            }
+          }
+        },
+        {
+          "class": 2,
+          "rating": "F",
+          "enabled": true,
+          "priority": 1,
+          "group": "Multi-cannon",
+          "mount": "Gimballed",
+          "modifications": {
+            "clip": -1500,
+            "damage": 7000,
+            "distdraw": 3500,
+            "thermload": 1500
+          },
+          "blueprint": {
+            "fdname": "MC_Overcharged",
+            "grades": {
+              "1": {
+                "components": {
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.03,
+                    -0.03
+                  ],
+                  "damage": [
+                    0,
+                    0.3
+                  ],
+                  "distdraw": [
+                    0.15,
+                    0.15
+                  ],
+                  "thermload": [
+                    0.03,
+                    0.03
+                  ]
+                },
+                "uuid": "e917ebe3-d5f1-4016-b8a9-2c759e16a7d4"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "damage": [
+                    0.3,
+                    0.4
+                  ],
+                  "distdraw": [
+                    0.2,
+                    0.2
+                  ],
+                  "thermload": [
+                    0.06,
+                    0.06
+                  ]
+                },
+                "uuid": "f5921fc1-fb10-4d2f-8e0a-cd8d8e9e3a84"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Electrochemical Arrays": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.09,
+                    -0.09
+                  ],
+                  "damage": [
+                    0.4,
+                    0.5
+                  ],
+                  "distdraw": [
+                    0.25,
+                    0.25
+                  ],
+                  "thermload": [
+                    0.09,
+                    0.09
+                  ]
+                },
+                "uuid": "4389883f-c2b3-4487-9b1a-b668a761057a"
+              },
+              "4": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Polymer Capacitors": 1,
+                  "Zinc": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.12,
+                    -0.12
+                  ],
+                  "damage": [
+                    0.5,
+                    0.6
+                  ],
+                  "distdraw": [
+                    0.3,
+                    0.3
+                  ],
+                  "thermload": [
+                    0.12,
+                    0.12
+                  ]
+                },
+                "uuid": "25ec26dd-63b8-4e83-9a6e-86e5b80c4771"
+              },
+              "5": {
+                "components": {
+                  "Conductive Polymers": 1,
+                  "Modified Embedded Firmware": 1,
+                  "Zirconium": 1
+                },
+                "features": {
+                  "clip": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "damage": [
+                    0.6,
+                    0.7
+                  ],
+                  "distdraw": [
+                    0.35,
+                    0.35
+                  ],
+                  "thermload": [
+                    0.15,
+                    0.15
+                  ]
+                },
+                "uuid": "4dcf6bdc-bcff-448a-92a0-7612de548db7"
+              }
+            },
+            "id": 88,
+            "modulename": [
+              "Weapon"
+            ],
+            "name": "Overcharged",
+            "grade": 5,
+            "special": {
+              "id": 12,
+              "edname": "special_incendiary_rounds",
+              "name": "Incendiary rounds",
+              "uuid": "3526773e-a814-4bec-afbf-30db79a3e239"
+            }
+          }
+        }
+      ],
+      "utility": [
+        {
+          "class": 0,
+          "rating": "I",
+          "enabled": true,
+          "priority": 1,
+          "group": "Heat Sink Launcher",
+          "name": "Heat Sink Launcher",
+          "modifications": {
+            "ammo": 5000,
+            "mass": 10000,
+            "reload": 5000
+          },
+          "blueprint": {
+            "fdname": "Misc_HeatSinkCapacity",
+            "grades": {
+              "1": {
+                "components": {
+                  "Mechanical Scrap": 1,
+                  "Niobium": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "ammo": [
+                    0.5,
+                    0.5
+                  ],
+                  "mass": [
+                    1,
+                    1
+                  ],
+                  "reload": [
+                    0.5,
+                    0.5
+                  ]
+                },
+                "uuid": "93c43a5d-106c-4481-b50b-c46311607209"
+              }
+            },
+            "id": 37,
+            "modulename": [
+              "Heat sink launcher"
+            ],
+            "name": "Ammo capacity",
+            "grade": 1
+          }
+        },
+        {
+          "class": 0,
+          "rating": "I",
+          "enabled": true,
+          "priority": 1,
+          "group": "Chaff Launcher",
+          "name": "Chaff Launcher",
+          "modifications": {
+            "ammo": 5000,
+            "mass": 10000,
+            "reload": 1000
+          },
+          "blueprint": {
+            "fdname": "Misc_ChaffCapacity",
+            "grades": {
+              "1": {
+                "components": {
+                  "Mechanical Scrap": 1,
+                  "Niobium": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "ammo": [
+                    0,
+                    0.5
+                  ],
+                  "mass": [
+                    1,
+                    1
+                  ],
+                  "reload": [
+                    0.1,
+                    0.1
+                  ]
+                },
+                "uuid": "cc81fa92-d36d-4619-98f9-4202d475b2d8"
+              }
+            },
+            "id": 12,
+            "modulename": [
+              "Chaff launcher"
+            ],
+            "name": "Ammo capacity",
+            "grade": 1
+          }
+        },
+        {
+          "class": 0,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Booster",
+          "modifications": {
+            "integrity": 1500,
+            "mass": 30000,
+            "power": 2500,
+            "shieldboost": 3800
+          },
+          "blueprint": {
+            "fdname": "ShieldBooster_HeavyDuty",
+            "grades": {
+              "1": {
+                "components": {
+                  "Grid Resistors": 1
+                },
+                "features": {
+                  "integrity": [
+                    0,
+                    0.03
+                  ],
+                  "mass": [
+                    1,
+                    1
+                  ],
+                  "power": [
+                    0.05,
+                    0.05
+                  ],
+                  "shieldboost": [
+                    0.03,
+                    0.1
+                  ]
+                },
+                "uuid": "350e7873-893a-49d2-9057-c00e060178eb"
+              },
+              "2": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1,
+                  "Hybrid Capacitors": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.03,
+                    0.06
+                  ],
+                  "mass": [
+                    1.5,
+                    1.5
+                  ],
+                  "power": [
+                    0.1,
+                    0.1
+                  ],
+                  "shieldboost": [
+                    0.1,
+                    0.17
+                  ]
+                },
+                "uuid": "636ccc8d-cc59-4366-9934-8b235becc2d7"
+              },
+              "3": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1,
+                  "Hybrid Capacitors": 1,
+                  "Niobium": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.06,
+                    0.09
+                  ],
+                  "mass": [
+                    2,
+                    2
+                  ],
+                  "power": [
+                    0.15,
+                    0.15
+                  ],
+                  "shieldboost": [
+                    0.17,
+                    0.24
+                  ]
+                },
+                "uuid": "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
+              },
+              "4": {
+                "components": {
+                  "Electrochemical Arrays": 1,
+                  "Inconsistent Shield Soak Analysis": 1,
+                  "Tin": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.09,
+                    0.12
+                  ],
+                  "mass": [
+                    2.5,
+                    2.5
+                  ],
+                  "power": [
+                    0.2,
+                    0.2
+                  ],
+                  "shieldboost": [
+                    0.24,
+                    0.31
+                  ]
+                },
+                "uuid": "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
+              },
+              "5": {
+                "components": {
+                  "Antimony": 1,
+                  "Polymer Capacitors": 1,
+                  "Untypical Shield Scans": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.12,
+                    0.15
+                  ],
+                  "mass": [
+                    3,
+                    3
+                  ],
+                  "power": [
+                    0.25,
+                    0.25
+                  ],
+                  "shieldboost": [
+                    0.31,
+                    0.38
+                  ]
+                },
+                "uuid": "933e238e-56e0-44d6-b114-49eaab02f033"
+              }
+            },
+            "id": 69,
+            "modulename": [
+              "Shield booster"
+            ],
+            "name": "Heavy duty",
+            "grade": 5,
+            "special": {
+              "name": "Super Capacitors",
+              "id": 156,
+              "edname": "special_shieldbooster_chunky",
+              "uuid": "4197c308-a3df-442a-91c2-db856b4f57cf"
+            }
+          }
+        },
+        {
+          "class": 0,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Booster",
+          "modifications": {
+            "integrity": 1500,
+            "mass": 30000,
+            "power": 2500,
+            "shieldboost": 3800
+          },
+          "blueprint": {
+            "fdname": "ShieldBooster_HeavyDuty",
+            "grades": {
+              "1": {
+                "components": {
+                  "Grid Resistors": 1
+                },
+                "features": {
+                  "integrity": [
+                    0,
+                    0.03
+                  ],
+                  "mass": [
+                    1,
+                    1
+                  ],
+                  "power": [
+                    0.05,
+                    0.05
+                  ],
+                  "shieldboost": [
+                    0.03,
+                    0.1
+                  ]
+                },
+                "uuid": "350e7873-893a-49d2-9057-c00e060178eb"
+              },
+              "2": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1,
+                  "Hybrid Capacitors": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.03,
+                    0.06
+                  ],
+                  "mass": [
+                    1.5,
+                    1.5
+                  ],
+                  "power": [
+                    0.1,
+                    0.1
+                  ],
+                  "shieldboost": [
+                    0.1,
+                    0.17
+                  ]
+                },
+                "uuid": "636ccc8d-cc59-4366-9934-8b235becc2d7"
+              },
+              "3": {
+                "components": {
+                  "Distorted Shield Cycle Recordings": 1,
+                  "Hybrid Capacitors": 1,
+                  "Niobium": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.06,
+                    0.09
+                  ],
+                  "mass": [
+                    2,
+                    2
+                  ],
+                  "power": [
+                    0.15,
+                    0.15
+                  ],
+                  "shieldboost": [
+                    0.17,
+                    0.24
+                  ]
+                },
+                "uuid": "82a66c08-1205-4c1a-ab02-1889e8ebcdd8"
+              },
+              "4": {
+                "components": {
+                  "Electrochemical Arrays": 1,
+                  "Inconsistent Shield Soak Analysis": 1,
+                  "Tin": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.09,
+                    0.12
+                  ],
+                  "mass": [
+                    2.5,
+                    2.5
+                  ],
+                  "power": [
+                    0.2,
+                    0.2
+                  ],
+                  "shieldboost": [
+                    0.24,
+                    0.31
+                  ]
+                },
+                "uuid": "c635934c-8d9d-4d1c-89e4-3a000a972bf2"
+              },
+              "5": {
+                "components": {
+                  "Antimony": 1,
+                  "Polymer Capacitors": 1,
+                  "Untypical Shield Scans": 1
+                },
+                "features": {
+                  "integrity": [
+                    0.12,
+                    0.15
+                  ],
+                  "mass": [
+                    3,
+                    3
+                  ],
+                  "power": [
+                    0.25,
+                    0.25
+                  ],
+                  "shieldboost": [
+                    0.31,
+                    0.38
+                  ]
+                },
+                "uuid": "933e238e-56e0-44d6-b114-49eaab02f033"
+              }
+            },
+            "id": 69,
+            "modulename": [
+              "Shield booster"
+            ],
+            "name": "Heavy duty",
+            "grade": 5,
+            "special": {
+              "name": "Super Capacitors",
+              "id": 156,
+              "edname": "special_shieldbooster_chunky",
+              "uuid": "4197c308-a3df-442a-91c2-db856b4f57cf"
+            }
+          }
+        },
+        {
+          "class": 0,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Booster",
+          "modifications": {
+            "explres": -400,
+            "kinres": -400,
+            "thermres": 2700
+          },
+          "blueprint": {
+            "fdname": "ShieldBooster_Thermic",
+            "grades": {
+              "1": {
+                "components": {
+                  "Iron": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "kinres": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "thermres": [
+                    0,
+                    0.07
+                  ]
+                },
+                "uuid": "9316e798-33cd-4ed2-8289-94eb82e41574"
+              },
+              "2": {
+                "components": {
+                  "Germanium": 1,
+                  "Heat Conduction Wiring": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.0175,
+                    -0.0175
+                  ],
+                  "kinres": [
+                    -0.0175,
+                    -0.0175
+                  ],
+                  "thermres": [
+                    0.07,
+                    0.12
+                  ]
+                },
+                "uuid": "62eaf453-a4dd-42e6-b404-dfb7569afec6"
+              },
+              "3": {
+                "components": {
+                  "Focus Crystals": 1,
+                  "Heat Conduction Wiring": 1,
+                  "Heat Dispersion Plate": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.025,
+                    -0.025
+                  ],
+                  "kinres": [
+                    -0.025,
+                    -0.025
+                  ],
+                  "thermres": [
+                    0.12,
+                    0.17
+                  ]
+                },
+                "uuid": "90cddf76-5636-46ae-8c41-b28c6831549b"
+              },
+              "4": {
+                "components": {
+                  "Heat Dispersion Plate": 1,
+                  "Refined Focus Crystals": 1,
+                  "Untypical Shield Scans": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.0325,
+                    -0.0325
+                  ],
+                  "kinres": [
+                    -0.0325,
+                    -0.0325
+                  ],
+                  "thermres": [
+                    0.17,
+                    0.22
+                  ]
+                },
+                "uuid": "3a922d38-e010-4874-97c9-7459dda8c184"
+              },
+              "5": {
+                "components": {
+                  "Aberrant Shield Pattern Analysis": 1,
+                  "Exquisite Focus Crystals": 1,
+                  "Heat Exchangers": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "kinres": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "thermres": [
+                    0.22,
+                    0.27
+                  ]
+                },
+                "uuid": "562f0d31-cefe-4631-939e-53168a9df2ab"
+              }
+            },
+            "id": 72,
+            "modulename": [
+              "Shield booster"
+            ],
+            "name": "Thermal resistant",
+            "grade": 5,
+            "special": {
+              "name": "Super Capacitors",
+              "id": 156,
+              "edname": "special_shieldbooster_chunky",
+              "uuid": "4197c308-a3df-442a-91c2-db856b4f57cf"
+            }
+          }
+        },
+        {
+          "class": 0,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Booster",
+          "modifications": {
+            "explres": -400,
+            "kinres": -400,
+            "thermres": 2700
+          },
+          "blueprint": {
+            "fdname": "ShieldBooster_Thermic",
+            "grades": {
+              "1": {
+                "components": {
+                  "Iron": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "kinres": [
+                    -0.01,
+                    -0.01
+                  ],
+                  "thermres": [
+                    0,
+                    0.07
+                  ]
+                },
+                "uuid": "9316e798-33cd-4ed2-8289-94eb82e41574"
+              },
+              "2": {
+                "components": {
+                  "Germanium": 1,
+                  "Heat Conduction Wiring": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.0175,
+                    -0.0175
+                  ],
+                  "kinres": [
+                    -0.0175,
+                    -0.0175
+                  ],
+                  "thermres": [
+                    0.07,
+                    0.12
+                  ]
+                },
+                "uuid": "62eaf453-a4dd-42e6-b404-dfb7569afec6"
+              },
+              "3": {
+                "components": {
+                  "Focus Crystals": 1,
+                  "Heat Conduction Wiring": 1,
+                  "Heat Dispersion Plate": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.025,
+                    -0.025
+                  ],
+                  "kinres": [
+                    -0.025,
+                    -0.025
+                  ],
+                  "thermres": [
+                    0.12,
+                    0.17
+                  ]
+                },
+                "uuid": "90cddf76-5636-46ae-8c41-b28c6831549b"
+              },
+              "4": {
+                "components": {
+                  "Heat Dispersion Plate": 1,
+                  "Refined Focus Crystals": 1,
+                  "Untypical Shield Scans": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.0325,
+                    -0.0325
+                  ],
+                  "kinres": [
+                    -0.0325,
+                    -0.0325
+                  ],
+                  "thermres": [
+                    0.17,
+                    0.22
+                  ]
+                },
+                "uuid": "3a922d38-e010-4874-97c9-7459dda8c184"
+              },
+              "5": {
+                "components": {
+                  "Aberrant Shield Pattern Analysis": 1,
+                  "Exquisite Focus Crystals": 1,
+                  "Heat Exchangers": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "kinres": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "thermres": [
+                    0.22,
+                    0.27
+                  ]
+                },
+                "uuid": "562f0d31-cefe-4631-939e-53168a9df2ab"
+              }
+            },
+            "id": 72,
+            "modulename": [
+              "Shield booster"
+            ],
+            "name": "Thermal resistant",
+            "grade": 5,
+            "special": {
+              "name": "Super Capacitors",
+              "id": 156,
+              "edname": "special_shieldbooster_chunky",
+              "uuid": "4197c308-a3df-442a-91c2-db856b4f57cf"
+            }
+          }
+        }
+      ],
+      "internal": [
+        {
+          "class": 5,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Cell Bank",
+          "modifications": {
+            "boot": -3200,
+            "integrity": -2000,
+            "power": 2500,
+            "shieldreinforcement": 1000,
+            "thermload": -2400
+          },
+          "blueprint": {
+            "fdname": "ShieldCellBank_Specialised",
+            "grades": {
+              "1": {
+                "components": {
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "boot": [
+                    0,
+                    -0.08
+                  ],
+                  "integrity": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "power": [
+                    0.1,
+                    0.1
+                  ],
+                  "shieldreinforcement": [
+                    0,
+                    0.04
+                  ],
+                  "thermload": [
+                    0,
+                    -0.06
+                  ]
+                },
+                "uuid": "3aa962e3-48f8-4305-829a-717dbead2830"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "boot": [
+                    -0.08,
+                    -0.16
+                  ],
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "power": [
+                    0.15,
+                    0.15
+                  ],
+                  "shieldreinforcement": [
+                    0.04,
+                    0.06
+                  ],
+                  "thermload": [
+                    -0.06,
+                    -0.12
+                  ]
+                },
+                "uuid": "53d40533-967f-4792-b938-421f7a938540"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Exceptional Scrambled Emission Data": 1
+                },
+                "features": {
+                  "boot": [
+                    -0.16,
+                    -0.24
+                  ],
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "power": [
+                    0.2,
+                    0.2
+                  ],
+                  "shieldreinforcement": [
+                    0.06,
+                    0.08
+                  ],
+                  "thermload": [
+                    -0.12,
+                    -0.18
+                  ]
+                },
+                "uuid": "0648b687-cf76-4953-a531-7eca944ec325"
+              },
+              "4": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Yttrium": 1
+                },
+                "features": {
+                  "boot": [
+                    -0.24,
+                    -0.32
+                  ],
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "power": [
+                    0.25,
+                    0.25
+                  ],
+                  "shieldreinforcement": [
+                    0.08,
+                    0.1
+                  ],
+                  "thermload": [
+                    -0.18,
+                    -0.24
+                  ]
+                },
+                "uuid": "4766533c-3dff-4871-8c5f-3a1338c88cd2"
+              }
+            },
+            "id": 74,
+            "modulename": [
+              "Shield cell bank",
+              "SCB"
+            ],
+            "name": "Specialised",
+            "grade": 4,
+            "special": {
+              "name": "Boss Cells",
+              "id": 134,
+              "edname": "special_shieldcell_oversized",
+              "uuid": "87ed0cec-9624-4ecb-8ffb-cc941464e8d2"
+            }
+          }
+        },
+        {
+          "class": 4,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Prismatic Shield Generator",
+          "modifications": {
+            "brokenregen": -1000,
+            "distdraw": 1200,
+            "explres": 825,
+            "kinres": 990,
+            "optmul": 3800,
+            "thermres": 1980
+          },
+          "blueprint": {
+            "fdname": "ShieldGenerator_Reinforced",
+            "grades": {
+              "1": {
+                "components": {
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "brokenregen": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "distdraw": [
+                    0.04,
+                    0.04
+                  ],
+                  "explres": [
+                    0,
+                    0.045
+                  ],
+                  "kinres": [
+                    0,
+                    0.045
+                  ],
+                  "optmul": [
+                    0,
+                    0.14
+                  ],
+                  "thermres": [
+                    0,
+                    0.045
+                  ]
+                },
+                "uuid": "47ad77c0-e49b-44e5-9824-4074b63db369"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "brokenregen": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "distdraw": [
+                    0.06,
+                    0.06
+                  ],
+                  "explres": [
+                    0.045,
+                    0.075
+                  ],
+                  "kinres": [
+                    0.045,
+                    0.075
+                  ],
+                  "optmul": [
+                    0.14,
+                    0.2
+                  ],
+                  "thermres": [
+                    0.045,
+                    0.075
+                  ]
+                },
+                "uuid": "823f8f82-745d-4051-8f35-4e38a561932e"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Mechanical Components": 1,
+                  "Phosphorus": 1
+                },
+                "features": {
+                  "brokenregen": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "distdraw": [
+                    0.08,
+                    0.08
+                  ],
+                  "explres": [
+                    0.075,
+                    0.105
+                  ],
+                  "kinres": [
+                    0.075,
+                    0.105
+                  ],
+                  "optmul": [
+                    0.2,
+                    0.26
+                  ],
+                  "thermres": [
+                    0.075,
+                    0.105
+                  ]
+                },
+                "uuid": "a1a29713-f2e5-4e15-a913-e01dc065f99f"
+              },
+              "4": {
+                "components": {
+                  "Conductive Ceramics": 1,
+                  "Configurable Components": 1,
+                  "Manganese": 1
+                },
+                "features": {
+                  "brokenregen": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "distdraw": [
+                    0.1,
+                    0.1
+                  ],
+                  "explres": [
+                    0.105,
+                    0.135
+                  ],
+                  "kinres": [
+                    0.105,
+                    0.135
+                  ],
+                  "optmul": [
+                    0.26,
+                    0.32
+                  ],
+                  "thermres": [
+                    0.105,
+                    0.135
+                  ]
+                },
+                "uuid": "87ac1315-7904-48f6-a5fe-f044be546490"
+              },
+              "5": {
+                "components": {
+                  "Arsenic": 1,
+                  "Conductive Polymers": 1,
+                  "Improvised Components": 1
+                },
+                "features": {
+                  "brokenregen": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "distdraw": [
+                    0.12,
+                    0.12
+                  ],
+                  "explres": [
+                    0.135,
+                    0.165
+                  ],
+                  "kinres": [
+                    0.135,
+                    0.165
+                  ],
+                  "optmul": [
+                    0.32,
+                    0.38
+                  ],
+                  "thermres": [
+                    0.135,
+                    0.165
+                  ]
+                },
+                "uuid": "1d9af376-c7c9-4b1a-9bc9-e77b4025e328"
+              }
+            },
+            "id": 77,
+            "modulename": [
+              "Shield generator",
+              "Shields"
+            ],
+            "name": "Reinforced",
+            "grade": 5,
+            "special": {
+              "name": "Hi-Cap",
+              "id": 108,
+              "edname": "special_shield_health",
+              "uuid": "603c1ba6-45e6-4401-af56-639c3e7c9b79"
+            }
+          }
+        },
+        {
+          "class": 4,
+          "rating": "A",
+          "enabled": true,
+          "priority": 1,
+          "group": "Shield Cell Bank",
+          "modifications": {
+            "boot": -3200,
+            "integrity": -2000,
+            "power": 2500,
+            "shieldreinforcement": 1000,
+            "thermload": -2400
+          },
+          "blueprint": {
+            "fdname": "ShieldCellBank_Specialised",
+            "grades": {
+              "1": {
+                "components": {
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "boot": [
+                    0,
+                    -0.08
+                  ],
+                  "integrity": [
+                    -0.05,
+                    -0.05
+                  ],
+                  "power": [
+                    0.1,
+                    0.1
+                  ],
+                  "shieldreinforcement": [
+                    0,
+                    0.04
+                  ],
+                  "thermload": [
+                    0,
+                    -0.06
+                  ]
+                },
+                "uuid": "3aa962e3-48f8-4305-829a-717dbead2830"
+              },
+              "2": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Specialised Legacy Firmware": 1
+                },
+                "features": {
+                  "boot": [
+                    -0.08,
+                    -0.16
+                  ],
+                  "integrity": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "power": [
+                    0.15,
+                    0.15
+                  ],
+                  "shieldreinforcement": [
+                    0.04,
+                    0.06
+                  ],
+                  "thermload": [
+                    -0.06,
+                    -0.12
+                  ]
+                },
+                "uuid": "53d40533-967f-4792-b938-421f7a938540"
+              },
+              "3": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Exceptional Scrambled Emission Data": 1
+                },
+                "features": {
+                  "boot": [
+                    -0.16,
+                    -0.24
+                  ],
+                  "integrity": [
+                    -0.15,
+                    -0.15
+                  ],
+                  "power": [
+                    0.2,
+                    0.2
+                  ],
+                  "shieldreinforcement": [
+                    0.06,
+                    0.08
+                  ],
+                  "thermload": [
+                    -0.12,
+                    -0.18
+                  ]
+                },
+                "uuid": "0648b687-cf76-4953-a531-7eca944ec325"
+              },
+              "4": {
+                "components": {
+                  "Conductive Components": 1,
+                  "Cracked Industrial Firmware": 1,
+                  "Yttrium": 1
+                },
+                "features": {
+                  "boot": [
+                    -0.24,
+                    -0.32
+                  ],
+                  "integrity": [
+                    -0.2,
+                    -0.2
+                  ],
+                  "power": [
+                    0.25,
+                    0.25
+                  ],
+                  "shieldreinforcement": [
+                    0.08,
+                    0.1
+                  ],
+                  "thermload": [
+                    -0.18,
+                    -0.24
+                  ]
+                },
+                "uuid": "4766533c-3dff-4871-8c5f-3a1338c88cd2"
+              }
+            },
+            "id": 74,
+            "modulename": [
+              "Shield cell bank",
+              "SCB"
+            ],
+            "name": "Specialised",
+            "grade": 4,
+            "special": {
+              "name": "Boss Cells",
+              "id": 134,
+              "edname": "special_shieldcell_oversized",
+              "uuid": "87ed0cec-9624-4ecb-8ffb-cc941464e8d2"
+            }
+          }
+        },
+        {
+          "class": 2,
+          "rating": "D",
+          "enabled": false,
+          "priority": 1,
+          "group": "Hull Reinforcement Package",
+          "modifications": {
+            "explres": 1485,
+            "hullreinforcement": 7200,
+            "kinres": 1485,
+            "mass": 4000,
+            "thermres": 1485
+          },
+          "blueprint": {
+            "fdname": "HullReinforcement_HeavyDuty",
+            "grades": {
+              "1": {
+                "components": {
+                  "Carbon": 1
+                },
+                "features": {
+                  "explres": [
+                    0,
+                    0.03
+                  ],
+                  "hullreinforcement": [
+                    0,
+                    0.24
+                  ],
+                  "kinres": [
+                    0,
+                    0.03
+                  ],
+                  "mass": [
+                    0.08,
+                    0.08
+                  ],
+                  "thermres": [
+                    0,
+                    0.03
+                  ]
+                },
+                "uuid": "e174a927-ab55-4691-be3e-832f6d68d679"
+              },
+              "2": {
+                "components": {
+                  "Carbon": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "explres": [
+                    0.03,
+                    0.06
+                  ],
+                  "hullreinforcement": [
+                    0.24,
+                    0.36
+                  ],
+                  "kinres": [
+                    0.03,
+                    0.06
+                  ],
+                  "mass": [
+                    0.16,
+                    0.16
+                  ],
+                  "thermres": [
+                    0.03,
+                    0.06
+                  ]
+                },
+                "uuid": "2cd3f87c-5ea3-4bd5-ab6d-70458f29de7e"
+              },
+              "3": {
+                "components": {
+                  "Carbon": 1,
+                  "High Density Composites": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "explres": [
+                    0.06,
+                    0.09
+                  ],
+                  "hullreinforcement": [
+                    0.36,
+                    0.48
+                  ],
+                  "kinres": [
+                    0.06,
+                    0.09
+                  ],
+                  "mass": [
+                    0.24,
+                    0.24
+                  ],
+                  "thermres": [
+                    0.06,
+                    0.09
+                  ]
+                },
+                "uuid": "251e8773-d06a-4b0e-9e30-a5114a45a5c1"
+              },
+              "4": {
+                "components": {
+                  "Proprietary Composites": 1,
+                  "Shielding Sensors": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "explres": [
+                    0.09,
+                    0.12
+                  ],
+                  "hullreinforcement": [
+                    0.48,
+                    0.6
+                  ],
+                  "kinres": [
+                    0.09,
+                    0.12
+                  ],
+                  "mass": [
+                    0.32,
+                    0.32
+                  ],
+                  "thermres": [
+                    0.09,
+                    0.12
+                  ]
+                },
+                "uuid": "d6b14f0e-9a32-4838-b41f-986f4a5abd6d"
+              },
+              "5": {
+                "components": {
+                  "Compound Shielding": 1,
+                  "Core Dynamics Composites": 1,
+                  "Tungsten": 1
+                },
+                "features": {
+                  "explres": [
+                    0.12,
+                    0.15
+                  ],
+                  "hullreinforcement": [
+                    0.6,
+                    0.72
+                  ],
+                  "kinres": [
+                    0.12,
+                    0.15
+                  ],
+                  "mass": [
+                    0.4,
+                    0.4
+                  ],
+                  "thermres": [
+                    0.12,
+                    0.15
+                  ]
+                },
+                "uuid": "137a648d-394b-48ac-a4de-bfa145fa9cf0"
+              }
+            },
+            "id": 42,
+            "modulename": [
+              "Hull reinforcement",
+              "Hull reinforcement package",
+              "HRP"
+            ],
+            "name": "Heavy duty",
+            "grade": 5,
+            "special": {
+              "name": "Angled Plating",
+              "id": 148,
+              "edname": "special_hullreinforcement_kinetic",
+              "uuid": "e8631809-2915-4373-905c-8dcf3bda6921"
+            }
+          }
+        },
+        {
+          "class": 1,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "group": "Hull Reinforcement Package",
+          "modifications": {
+            "explres": 1493,
+            "hullreinforcement": 7200,
+            "kinres": 1493,
+            "mass": 4000,
+            "thermres": 1493
+          },
+          "blueprint": {
+            "fdname": "HullReinforcement_HeavyDuty",
+            "grades": {
+              "1": {
+                "components": {
+                  "Carbon": 1
+                },
+                "features": {
+                  "explres": [
+                    0,
+                    0.03
+                  ],
+                  "hullreinforcement": [
+                    0,
+                    0.24
+                  ],
+                  "kinres": [
+                    0,
+                    0.03
+                  ],
+                  "mass": [
+                    0.08,
+                    0.08
+                  ],
+                  "thermres": [
+                    0,
+                    0.03
+                  ]
+                },
+                "uuid": "e174a927-ab55-4691-be3e-832f6d68d679"
+              },
+              "2": {
+                "components": {
+                  "Carbon": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "explres": [
+                    0.03,
+                    0.06
+                  ],
+                  "hullreinforcement": [
+                    0.24,
+                    0.36
+                  ],
+                  "kinres": [
+                    0.03,
+                    0.06
+                  ],
+                  "mass": [
+                    0.16,
+                    0.16
+                  ],
+                  "thermres": [
+                    0.03,
+                    0.06
+                  ]
+                },
+                "uuid": "2cd3f87c-5ea3-4bd5-ab6d-70458f29de7e"
+              },
+              "3": {
+                "components": {
+                  "Carbon": 1,
+                  "High Density Composites": 1,
+                  "Shield Emitters": 1
+                },
+                "features": {
+                  "explres": [
+                    0.06,
+                    0.09
+                  ],
+                  "hullreinforcement": [
+                    0.36,
+                    0.48
+                  ],
+                  "kinres": [
+                    0.06,
+                    0.09
+                  ],
+                  "mass": [
+                    0.24,
+                    0.24
+                  ],
+                  "thermres": [
+                    0.06,
+                    0.09
+                  ]
+                },
+                "uuid": "251e8773-d06a-4b0e-9e30-a5114a45a5c1"
+              },
+              "4": {
+                "components": {
+                  "Proprietary Composites": 1,
+                  "Shielding Sensors": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "explres": [
+                    0.09,
+                    0.12
+                  ],
+                  "hullreinforcement": [
+                    0.48,
+                    0.6
+                  ],
+                  "kinres": [
+                    0.09,
+                    0.12
+                  ],
+                  "mass": [
+                    0.32,
+                    0.32
+                  ],
+                  "thermres": [
+                    0.09,
+                    0.12
+                  ]
+                },
+                "uuid": "d6b14f0e-9a32-4838-b41f-986f4a5abd6d"
+              },
+              "5": {
+                "components": {
+                  "Compound Shielding": 1,
+                  "Core Dynamics Composites": 1,
+                  "Tungsten": 1
+                },
+                "features": {
+                  "explres": [
+                    0.12,
+                    0.15
+                  ],
+                  "hullreinforcement": [
+                    0.6,
+                    0.72
+                  ],
+                  "kinres": [
+                    0.12,
+                    0.15
+                  ],
+                  "mass": [
+                    0.4,
+                    0.4
+                  ],
+                  "thermres": [
+                    0.12,
+                    0.15
+                  ]
+                },
+                "uuid": "137a648d-394b-48ac-a4de-bfa145fa9cf0"
+              }
+            },
+            "id": 42,
+            "modulename": [
+              "Hull reinforcement",
+              "Hull reinforcement package",
+              "HRP"
+            ],
+            "name": "Heavy duty",
+            "grade": 5,
+            "special": {
+              "name": "Deep Plating",
+              "id": 150,
+              "edname": "special_hullreinforcement_chunky",
+              "uuid": "b51706cc-d412-4559-8654-f812d2eb44b9"
+            }
+          }
+        },
+        {
+          "class": 1,
+          "rating": "D",
+          "enabled": true,
+          "priority": 1,
+          "group": "Hull Reinforcement Package",
+          "modifications": {
+            "explres": -995,
+            "hullreinforcement": 1500,
+            "kinres": -995,
+            "thermres": 3980
+          },
+          "blueprint": {
+            "fdname": "HullReinforcement_Thermic",
+            "grades": {
+              "1": {
+                "components": {
+                  "Heat Conduction Wiring": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "hullreinforcement": [
+                    0,
+                    0.03
+                  ],
+                  "kinres": [
+                    -0.02,
+                    -0.02
+                  ],
+                  "thermres": [
+                    0,
+                    0.12
+                  ]
+                },
+                "uuid": "cc3d62d5-9769-480d-9e37-620c61a276ab"
+              },
+              "2": {
+                "components": {
+                  "Heat Dispersion Plate": 1,
+                  "Nickel": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "hullreinforcement": [
+                    0.03,
+                    0.06
+                  ],
+                  "kinres": [
+                    -0.04,
+                    -0.04
+                  ],
+                  "thermres": [
+                    0.12,
+                    0.19
+                  ]
+                },
+                "uuid": "e4aa2331-7dc5-479c-9959-d90f0e473da9"
+              },
+              "3": {
+                "components": {
+                  "Heat Exchangers": 1,
+                  "Salvaged Alloys": 1,
+                  "Vanadium": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "hullreinforcement": [
+                    0.06,
+                    0.09
+                  ],
+                  "kinres": [
+                    -0.06,
+                    -0.06
+                  ],
+                  "thermres": [
+                    0.19,
+                    0.26
+                  ]
+                },
+                "uuid": "29f49ae9-e241-4791-a9e3-bfdccd6cdfbb"
+              },
+              "4": {
+                "components": {
+                  "Galvanising Alloys": 1,
+                  "Heat Vanes": 1,
+                  "Tungsten": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.08,
+                    -0.08
+                  ],
+                  "hullreinforcement": [
+                    0.09,
+                    0.12
+                  ],
+                  "kinres": [
+                    -0.08,
+                    -0.08
+                  ],
+                  "thermres": [
+                    0.26,
+                    0.33
+                  ]
+                },
+                "uuid": "19e30f32-a789-4acf-8f69-f97677ace963"
+              },
+              "5": {
+                "components": {
+                  "Molybdenum": 1,
+                  "Phase Alloys": 1,
+                  "Proto Heat Radiators": 1
+                },
+                "features": {
+                  "explres": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "hullreinforcement": [
+                    0.12,
+                    0.15
+                  ],
+                  "kinres": [
+                    -0.1,
+                    -0.1
+                  ],
+                  "thermres": [
+                    0.33,
+                    0.4
+                  ]
+                },
+                "uuid": "e6151657-1317-4aec-9e49-2d7e7a093d74"
+              }
+            },
+            "id": 45,
+            "modulename": [
+              "Hull reinforcement",
+              "Hull reinforcement package",
+              "HRP"
+            ],
+            "name": "Thermal resistant",
+            "grade": 5,
+            "special": {
+              "name": "Deep Plating",
+              "id": 150,
+              "edname": "special_hullreinforcement_chunky",
+              "uuid": "b51706cc-d412-4559-8654-f812d2eb44b9"
+            }
+          }
+        }
+      ]
+    },
+    "stats": {
+      "class": 2,
+      "hullCost": 51232230,
+      "speed": 260,
+      "boost": 350,
+      "boostEnergy": 19,
+      "baseShieldStrength": 300,
+      "baseArmour": 225,
+      "hardness": 70,
+      "hullMass": 250,
+      "heatCapacity": 224,
+      "masslock": 12,
+      "pipSpeed": 0.04,
+      "pitch": 38,
+      "roll": 90,
+      "yaw": 12,
+      "crew": 2,
+      "reserveFuelCapacity": 0.67,
+      "moduleCostMultiplier": 1,
+      "fuelCapacity": 8,
+      "cargoCapacity": 0,
+      "passengerCapacity": 0,
+      "ladenMass": 554.2,
+      "armour": 1469.93,
+      "shield": 2110.96,
+      "shieldCells": 1746.36,
+      "totalCost": 211573677,
+      "unladenMass": 546.2,
+      "totalDpe": 82.56,
+      "totalAbsDpe": 0,
+      "totalExplDpe": 0,
+      "totalKinDpe": 8.26,
+      "totalThermDpe": 74.3,
+      "totalDps": 119.13,
+      "totalAbsDps": 0,
+      "totalExplDps": 0,
+      "totalKinDps": 11.91,
+      "totalThermDps": 107.22,
+      "totalSDps": 86.43,
+      "totalAbsSDps": 0,
+      "totalExplSDps": 0,
+      "totalKinSDps": 8.64,
+      "totalThermSDps": 77.79,
+      "totalEps": 7.12,
+      "totalHps": 25.8,
+      "shieldExplRes": 0.51,
+      "shieldKinRes": 0.41,
+      "shieldThermRes": 0.36,
+      "hullExplRes": 0.25,
+      "hullKinRes": 0.29,
+      "hullThermRes": 0.34,
+      "powerAvailable": 27.22,
+      "powerRetracted": 25.51,
+      "powerDeployed": 29.29,
+      "unladenRange": 17,
+      "fullTankRange": 16.86,
+      "ladenRange": 16.86,
+      "unladenFastestRange": 45.58,
+      "ladenFastestRange": 45.58,
+      "maxJumpCount": 3,
+      "modulearmour": 0,
+      "moduleprotection": 0,
+      "hullCausRes": 0,
+      "topSpeed": 386.31,
+      "topBoost": 520.03,
+      "topPitch": 56.46,
+      "topRoll": 133.72,
+      "topYaw": 17.83
+    }
+  }
